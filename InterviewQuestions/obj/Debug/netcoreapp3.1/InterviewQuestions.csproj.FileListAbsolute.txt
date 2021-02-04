@@ -1,0 +1,13 @@
+D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\obj\Debug\netcoreapp3.1\InterviewQuestions.csprojAssemblyReference.cache
+D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\obj\Debug\netcoreapp3.1\InterviewQuestions.AssemblyInfoInputs.cache
+D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\obj\Debug\netcoreapp3.1\InterviewQuestions.AssemblyInfo.cs
+D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\obj\Debug\netcoreapp3.1\InterviewQuestions.csproj.CoreCompileInputs.cache
+D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\bin\Debug\netcoreapp3.1\InterviewQuestions.exe
+D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\bin\Debug\netcoreapp3.1\InterviewQuestions.deps.json
+D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\bin\Debug\netcoreapp3.1\InterviewQuestions.runtimeconfig.json
+D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\bin\Debug\netcoreapp3.1\InterviewQuestions.runtimeconfig.dev.json
+D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\bin\Debug\netcoreapp3.1\InterviewQuestions.dll
+D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\bin\Debug\netcoreapp3.1\InterviewQuestions.pdb
+D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\obj\Debug\netcoreapp3.1\InterviewQuestions.dll
+D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\obj\Debug\netcoreapp3.1\InterviewQuestions.pdb
+D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\obj\Debug\netcoreapp3.1\InterviewQuestions.genruntimeconfig.cache
