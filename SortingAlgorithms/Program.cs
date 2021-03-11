@@ -7,56 +7,29 @@ namespace SortingAlgorithms
     {
         static void Main(string[] args)
         {
-            var nums = new int[] { 2, 5, 1, 3, 4, 7 };
-            var n = 3;
-            var new_arr = new int[nums.Length];
-            //need three pointers
-            // i for traversal,
-            //x for x1,x2,...xn
-            //y for y1,y2,y3...yn
-            for (int i = 0, x = 0, y = n; i < nums.Length; i++)
+            Stack<Int64> TestStack = new Stack<Int64>();
+            for (int i = 0; i < 10; i++)
             {
-                
-                if (y >= nums.Length) break;
-                if (i == 0)
-                {
-                    new_arr[i] = nums[x];
-                    continue;
-                }
-                if (i == 1)
-                {
-                    new_arr[i] = nums[y];
-                    continue;
-                }
-
-                if (i % 2 == 0)
-                {
-                    x++;
-                    new_arr[i] = nums[x]; 
-                }
-                else
-                {
-                    if (y < nums.Length)
-                    {
-                        y++;
-                        new_arr[i] = nums[y];
-                    }
-                }
-
+                TestStack.push(i);
             }
-            foreach (var item in new_arr)
+            foreach (var item in TestStack)
             {
                 Console.WriteLine(item);
             }
-
-
-            //TestDynamicArrays
-            //DynamicArrays();
         }
+        public static void GreetingHello(string name)
+        {
+            Console.WriteLine($"Hello {name}");
+        }
+        public static void GreetingHello(int name)
+        {
+            Console.WriteLine($"Hello {name}");
+        }
+
         static void DynamicArrays()
         {
             DynamicArrays<int> test = new DynamicArrays<int>(2);
-            for(int i = 0; i< 5; i++)
+            for (int i = 0; i < 5; i++)
             {
                 test.add(i);
             }
@@ -64,7 +37,7 @@ namespace SortingAlgorithms
             {
                 Console.WriteLine(item);
             }
-            Console.WriteLine("Index of 0 => "+ test.indexOf(0));
+            Console.WriteLine("Index of 0 => " + test.indexOf(0));
             Console.WriteLine("\r\n");
             foreach (var item in test)
             {

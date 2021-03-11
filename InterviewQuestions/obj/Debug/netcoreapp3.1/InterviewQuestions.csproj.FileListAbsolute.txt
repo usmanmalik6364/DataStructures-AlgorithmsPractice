@@ -11,3 +11,10 @@ D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\bin\Debug\n
 D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\obj\Debug\netcoreapp3.1\InterviewQuestions.dll
 D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\obj\Debug\netcoreapp3.1\InterviewQuestions.pdb
 D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\obj\Debug\netcoreapp3.1\InterviewQuestions.genruntimeconfig.cache
+D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\bin\Debug\netcoreapp3.1\SortingAlgorithms.deps.json
+D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\bin\Debug\netcoreapp3.1\SortingAlgorithms.runtimeconfig.json
+D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\bin\Debug\netcoreapp3.1\SortingAlgorithms.runtimeconfig.dev.json
+D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\bin\Debug\netcoreapp3.1\SortingAlgorithms.exe
+D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\bin\Debug\netcoreapp3.1\SortingAlgorithms.dll
+D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\bin\Debug\netcoreapp3.1\SortingAlgorithms.pdb
+D:\Personal Learning\Algorithms\SortingAlgorithms\InterviewQuestions\obj\Debug\netcoreapp3.1\InterviewQuestions.csproj.CopyComplete

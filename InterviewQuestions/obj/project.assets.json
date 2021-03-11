@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "SortingAlgorithms/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/SortingAlgorithms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SortingAlgorithms.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SortingAlgorithms/1.0.0": {
+      "type": "project",
+      "path": "../SortingAlgorithms/SortingAlgorithms.csproj",
+      "msbuildProject": "../SortingAlgorithms/SortingAlgorithms.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "SortingAlgorithms >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\usman\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Personal Learning\\Algorithms\\SortingAlgorithms\\SortingAlgorithms\\SortingAlgorithms.csproj": {
+              "projectPath": "D:\\Personal Learning\\Algorithms\\SortingAlgorithms\\SortingAlgorithms\\SortingAlgorithms.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -60,7 +83,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

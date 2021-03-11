@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "InterviewQuestions/1.0.0": {
-        "dependencies": {
-          "SortingAlgorithms": "1.0.0"
-        },
-        "runtime": {
-          "InterviewQuestions.dll": {}
-        }
-      },
       "SortingAlgorithms/1.0.0": {
         "runtime": {
           "SortingAlgorithms.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "InterviewQuestions/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "SortingAlgorithms/1.0.0": {
       "type": "project",
       "serviceable": false,

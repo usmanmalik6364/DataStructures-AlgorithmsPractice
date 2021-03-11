@@ -68,5 +68,23 @@ namespace InterviewQuestions.StringQuestions
 
             return input = new string(charset);
         }
+        public static Boolean isPalindrome(this string input)
+        {
+            //racecar 
+            //notice every character occurs twice or more except for one
+            //maintain an int array for keeping the count of every character that occurs in string
+            int[] CharCounts = new int[128];
+            int count = 0;
+            for (int i = 0; i < input.Length; i++)
+            {
+                int value = input[i];
+                CharCounts[value]++;
+            }
+            for (int i = 0; i < 128; i++)
+            {
+                count += CharCounts[i] % 2;
+            }
+            return count <= 1;
+        }
     }
 }

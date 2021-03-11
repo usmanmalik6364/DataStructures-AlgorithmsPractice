@@ -1,5 +1,6 @@
 ﻿using InterviewQuestions.ArrayQuestions;
 using InterviewQuestions.StringQuestions;
+using SortingAlgorithms.DataStructures;
 using System;
 
 namespace InterviewQuestions
@@ -8,15 +9,21 @@ namespace InterviewQuestions
     {
         static void Main(string[] args)
         {
-
-            //testArrayPairSumOnLogn(); //1965ms time
-            //testOutputPairsSumQuadtraticTime(); // takes minutes or maybe hours with this input
-            //testOutputPairsLinearTime();
-
-            //testRotate(); //3,1,2
-            //testStringIsUnique();
-            //testStringPermutation();
-            testStringURLify();
+            Stack < Int64 > TestStack = new Stack<Int64>();
+            for (int i = 0; i < 10; i++)
+            {
+                TestStack.push(i);
+            }
+            TestStack.pop();
+            foreach (var item in TestStack)
+            {
+                Console.WriteLine(item);
+            }
+        }
+        public static void testInsertionSort()
+        {
+            var a = new int[6]{ 5,2,4,6,1,3};
+            a.insertionSort();
         }
        
         public static void testRotate()
@@ -80,6 +87,12 @@ namespace InterviewQuestions
             string a = "My Name is Usman.";
             a = a.URLify();
             Console.WriteLine(a);
+        }
+        public static void testisPalindrome()
+        {
+            string test = "teste";
+            if (test.isPalindrome()) Console.WriteLine("Yes it is a palindrome");
+            else Console.WriteLine("No, it is not a palindrome");
         }
     }
 }

@@ -10,3 +10,4 @@ D:\Personal Learning\Algorithms\SortingAlgorithms\SortingAlgorithms\obj\Debug\ne
 D:\Personal Learning\Algorithms\SortingAlgorithms\SortingAlgorithms\obj\Debug\netcoreapp3.1\SortingAlgorithms.dll
 D:\Personal Learning\Algorithms\SortingAlgorithms\SortingAlgorithms\obj\Debug\netcoreapp3.1\SortingAlgorithms.pdb
 D:\Personal Learning\Algorithms\SortingAlgorithms\SortingAlgorithms\obj\Debug\netcoreapp3.1\SortingAlgorithms.genruntimeconfig.cache
+D:\Personal Learning\Algorithms\SortingAlgorithms\SortingAlgorithms\obj\Debug\netcoreapp3.1\SortingAlgorithms.csprojAssemblyReference.cache
